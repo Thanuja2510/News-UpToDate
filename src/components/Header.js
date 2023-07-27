@@ -5,14 +5,17 @@ import {Link} from 'react-router-dom'
 
  function Header() {
   return (
-    <div style={{backgroundColor : "#8EE2EF"}}>
+    <div style={{backgroundColor : "#778899"}}>
 
     
     <div className='text-center ' style={{fontFamily : "Russo One"}}>
-        <h1>News APP</h1>
+        <h1 style={{fontSize: "60px"}}>News APP</h1>
+        <br></br>
+        <h5 style={{fontFamily:"AmstelvarAlpha"}}><b>THE WEBSITE BUILT USING NEWS API</b></h5>
+        <br></br>
        
     </div>
-    <nav class="navbar navbar-expand-lg " style={{backgroundColor : "#8EE2EF"}}>
+    <nav class="navbar navbar-expand-lg " style={{backgroundColor : "#778899"}}>
   <div class="container-fluid">
     <Link class="navbar-brand" to="#"><h3>News Updates</h3></Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">

@@ -21,7 +21,6 @@ const Mainpage=({cat})=> {
   return (
   
     <div>
-        <button className='btn-btn-primary' > Display News </button>
         <Newscards newsdata={newsdata}/>
     </div>
   )
